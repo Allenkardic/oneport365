@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Inter";
+  src: local("Inter");
+}
+
+:root {
+  --main-font: "Inter";
+  /* colors */
+  --color-primary: "#3AB44A";
+  --color-white: "#FFFFFF";
+  --color-lightGreen-color: "#F0FDF4";
+  --color-grey: "#F9FAFB";
+  --color-darkGrey: "#6B7280";
+  --color-black: "#000000";
+
+  /* font size */
+  --fontSize-small: 2vw;
+  --fontSize-medium: 3vw;
+  --fontSize-large: 5vw;
+  --fontSize-xlarge: 6vw;
+  --fontSize-xxlarge: 7vw;
+  --fontSize-title: 8vw;
+
+  /* spacing */
+  --spacing-xxsmall: 4px;
+  --spacing-xsmall: 8px;
+  --spacing-small: 24px;
+  --spacing-medium: 48px;
+  --spacing-large: 64px;
+  --spacing-xlarge: 96px;
+
+  /* line-height */
+  --lineHeight-small: 1;
+  --lineHeight-medium: 1.5;
+  --lineHeight-large: 2;
+
+  /* box shadow */
+  --boxShadow-light: 0 3px 6px hsla(0, 0%, 0.15), 0 3px 6px hsla(0, 0%, 0.15);
+  --boxShadow-medium: 0 10px 20px hsla(0, 0%, 0.15), 0 3px 6px hsla(0, 0%, 0.1);
+  --boxShadow-dark: 0 15px 25px hsla(0, 0%, 0.15), 0 5px 10px hsla(0, 0%, 0.5);
+  --boxShadow-xdark: 0 20px 40px hsla(0, 0%, 0.2);
+
+  --borderRadius-small: 5px;
+  --borderRadius-medium: 10px;
+  --borderRadius-large: 50%;
+}
